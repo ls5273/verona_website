@@ -1,0 +1,101 @@
+/*
+@ASSESSME.USERID: ls5273
+@ASSESSME.AUTHOR: Lana Sorak
+@ASSESSME.ANALYZE: YES
+*/
+
+/* Style for horizontal rule */
+hr {
+    margin: 2em;
+    margin-bottom: 3em;
+    border-color: #ee0606;
+}
+
+/* Main content container */
+.main {
+    background-color: #E4E5E8;
+    padding: 0.6em;
+    padding-bottom: 2em;
+    margin-top: 8.5em;
+    margin-bottom: 1em;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+/* h2 style */
+.main h2 {
+    font-family: "Tangerine", cursive;
+    font-weight: bold;
+    font-size: 400%;
+    margin: 0;
+    margin-top: 0.3em;
+}
+
+/* h3 style */
+.main h3 {
+    margin-left: 1em;
+    margin-top: 2em;
+}
+
+/* Utility class to reduce top margin where needed */
+.margin {
+    margin-top: -1em;
+}
+
+/* Link styles inside list items */
+.main ul li a {
+    color: #A30000;
+}
+
+/* Hover Effect */
+.main ul li a:hover {
+    color: #D10000;
+}
+
+/* List text size */
+.main ul {
+    font-size: 120%;
+}
+
+
+
+/* Medium screen adjustments */
+@media screen and (max-width: 1024px) {
+    .main {
+         margin-top: 7em;
+    } 
+}
+ 
+ 
+/* Tablet screen adjustments */
+@media screen and (max-width: 768px) {
+    .main {
+        margin-top: 5.5em;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .main ul {
+        font-size: 110%;
+    }
+
+    .main h2 {
+        font-size: 350%;
+    }
+}
+ 
+ 
+/* Mobile screen adjustments */
+@media  screen and (max-width: 448px) {
+    .main {
+        margin-top: 4em;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+ 
+    .main h2 {
+        font-size: 300%;
+    }
+}

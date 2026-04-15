@@ -1,0 +1,189 @@
+/*
+@ASSESSME.USERID: ls5273
+@ASSESSME.AUTHOR: Lana Sorak
+@ASSESSME.ANALYZE: YES
+*/
+
+/* General page styling */
+body {
+    font-size: 100%;
+    font-family: sans-serif;
+    margin: 0;
+}
+
+/* Main heading (h1) styling */
+h1 {
+    background-color: #A30000;
+    color: white;
+    font-family: "Tangerine", cursive;
+    font-size: 600%;
+    padding: 0.2em;
+    padding-bottom: 0.1em;
+    margin: 0;
+    margin-bottom: 0.2em;;
+    text-align: center;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.3);
+}
+
+/* Main content container */
+.main {
+    background-color: #E4E5E8;
+    padding: 0.4em;
+    margin-top: 1em;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.3);
+}
+
+/* Paragraphs inside .main */
+.main p {
+    font-size: 120%;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+/* Subheadings inside .main */
+.main h3 {
+    text-align: center;
+    font-family: "Tangerine", cursive;
+    font-size: 320%;
+    color: black;
+    margin-left: 0.1em;
+    margin-right: 0.5em;
+}
+
+/* Navigation container */
+.nav {
+    background-color: #E4E5E8;
+    margin-top: 1em;
+    margin-bottom: 1em;;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    font-size: 120%;
+    padding: 0.5em;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.3);
+}
+
+/* Navigation list items */
+.nav ul li {
+    margin: 0.5em;
+    list-style-type: none;
+    background-color: #A30000;
+    margin-left: -1.5em;
+    padding: 0.5em;
+    text-align: center;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Links inside nav items */
+.nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Tangerine", cursive;
+    font-size: 270%;
+}
+
+/* Hover effect for nav links */
+.nav ul li a:hover {
+    color: black;
+}
+
+/* Container for images */
+.img-container {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+/* Individual images */
+.img-container img {
+    height: auto;
+    width: 30vw;
+    min-width: 400px;
+    box-shadow: 4px 4px 7px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* Medium screen adjustments */
+@media screen and (max-width: 1024px) {
+    h1 {
+        font-size: 500%;
+    }
+    
+    .main {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    .main p {
+        font-size: 110%;;
+    }
+
+    .main h3 {
+        font-size: 280%;
+    }
+
+    .nav {
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+}
+
+
+/* Tablet screen adjustments */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 400%;
+    }
+
+    .main {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .main h3 {
+        font-size: 250%;
+    }
+
+    .nav {
+        margin-left: 5em;
+        margin-right: 5em;
+    }
+
+    .nav ul li a {
+        font-size: 250%;
+    }
+
+    .img-container img {
+        width: 60vw;
+        min-width: 300px;
+    }
+}
+
+
+/* Mobile screen adjustments */
+@media  screen and (max-width: 448px) {
+    h1 {
+        font-size: 300%;
+    }
+
+    .main {
+        margin: 1em;
+    }
+
+    .nav {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+
+    .nav ul li a {
+        font-size: 200%;
+    }
+
+    .img-container img {
+        width: 80vw;
+        min-width: 250px;
+    }
+}
